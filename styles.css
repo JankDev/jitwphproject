@@ -1,0 +1,33 @@
+body {
+    background-color: grey;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.comment-post{
+    display: block;
+    text-decoration: none;
+    color: white;
+    background-color: crimson;
+    padding: 20px;
+    width: 120px;
+    text-align: center;
+    font-size: 1.1rem;
+    margin: auto;
+}
+
+.comment-post:hover{
+    background-color: brown;
+}
+
+
+
+.comment {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    max-width: 300px;
+    padding: 20px;
+    background-color: yellow;
+    text-align: center;
+    font-family: arial;
+}
